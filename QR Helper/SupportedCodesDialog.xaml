@@ -1,0 +1,72 @@
+﻿<ContentDialog
+    x:Class="QR_Helper.SupportedCodesDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QR_Helper"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="List of supported codes"
+    CloseButtonText="Close">
+
+				<ScrollViewer>
+								<StackPanel>
+												<StackPanel Orientation="Horizontal">
+																<Image Source="Assets/CodeList/QRCode.jpeg" Height="25"/>
+																<TextBlock Text="QR Code" VerticalAlignment="Center" Margin="4,0,0,0"/>
+												</StackPanel>
+												<StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+																<Image Source="Assets/CodeList/DataMatrix.jpeg" Height="25"/>
+																<TextBlock Text="Data matrix" VerticalAlignment="Center" Margin="4,0,0,0"/>
+												</StackPanel>
+												<StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+																<Image Source="Assets/CodeList/Aztec.jpeg" Height="25"/>
+																<TextBlock Text="Aztec" VerticalAlignment="Center" Margin="4,0,0,0"/>
+												</StackPanel>
+												<StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+																<Image Source="Assets/CodeList/UPC-A.jpeg" Height="25"/>
+																<TextBlock Text="UPC-A" VerticalAlignment="Center" Margin="4,0,0,0"/>
+												</StackPanel>
+												<StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+																<Image Source="Assets/CodeList/UPC-E.jpeg" Height="25"/>
+																<TextBlock Text="UPC-E" VerticalAlignment="Center" Margin="4,0,0,0"/>
+												</StackPanel>
+												<StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+																<Image Source="Assets/CodeList/Code39.jpeg" Height="25"/>
+																<TextBlock Text="Code 39" VerticalAlignment="Center" Margin="4,0,0,0"/>
+												</StackPanel>
+												<StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+																<Image Source="Assets/CodeList/Code93.jpeg" Height="25"/>
+																<TextBlock Text="Code 93" VerticalAlignment="Center" Margin="4,0,0,0"/>
+												</StackPanel>
+												<StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+																<Image Source="Assets/CodeList/Code128.jpeg" Height="25"/>
+																<TextBlock Text="Code 128" VerticalAlignment="Center" Margin="4,0,0,0"/>
+												</StackPanel>
+												<StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+																<Image Source="Assets/CodeList/EAN-8.jpeg" Height="25"/>
+																<TextBlock Text="EAN-8" VerticalAlignment="Center" Margin="4,0,0,0"/>
+												</StackPanel>
+												<StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+																<Image Source="Assets/CodeList/EAN-13.jpeg" Height="25"/>
+																<TextBlock Text="EAN-13" VerticalAlignment="Center" Margin="4,0,0,0"/>
+												</StackPanel>
+												<StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+																<Image Source="Assets/CodeList/Codabar.jpeg" Height="25"/>
+																<TextBlock Text="Codabar" VerticalAlignment="Center" Margin="4,0,0,0"/>
+												</StackPanel>
+												<StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+																<Image Source="Assets/CodeList/MSI.jpeg" Height="25"/>
+																<TextBlock Text="MSI" VerticalAlignment="Center" Margin="4,0,0,0"/>
+												</StackPanel>
+												<StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+																<Image Source="Assets/CodeList/PDF417.jpeg" Height="25"/>
+																<TextBlock Text="PDF417" VerticalAlignment="Center" Margin="4,0,0,0"/>
+												</StackPanel>
+												<StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+																<Image Source="Assets/CodeList/ITF.jpeg" Height="25"/>
+																<TextBlock Text="ITF" VerticalAlignment="Center" Margin="4,0,0,0"/>
+												</StackPanel>
+								</StackPanel>
+				</ScrollViewer>
+</ContentDialog>

@@ -1,0 +1,23 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+				
+				<ResourceDictionary.ThemeDictionaries>
+								<ResourceDictionary x:Key="Light">
+												<Color x:Key="BorderColor">LightGray</Color>
+												<Style x:Key="HistoryPanel" TargetType="StackPanel">
+																<Setter Property="Background" Value="#0C000000"/>
+												</Style>
+												<Color x:Key="HistoryPanelTitle">Black</Color>
+												<Color x:Key="CameraScanCloseButtonBackground">#CCFFFFFF</Color>
+								</ResourceDictionary>
+								<ResourceDictionary x:Key="Dark">
+												<Color x:Key="BorderColor">#19FFFFFF</Color>
+												<Style x:Key="HistoryPanel" TargetType="StackPanel">
+																<Setter Property="Background" Value="#0CFFFFFF"/>
+												</Style>
+												<Color x:Key="HistoryPanelTitle">White</Color>
+												<Color x:Key="CameraScanCloseButtonBackground">#CC000000</Color>
+								</ResourceDictionary>
+				</ResourceDictionary.ThemeDictionaries>
+</ResourceDictionary>
